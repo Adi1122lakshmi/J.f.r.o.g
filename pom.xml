@@ -24,16 +24,16 @@
     </dependency>
   </dependencies>
   
- <distributionManagement>
+    <distributionManagement>
     <repository>
         <id>central</id>
-        <name>S42-Batch-releases</name>
-        <url>http://18.223.120.181:8081/artifactory/vmtutes-repo</url>
+        <name>radha-releases</name>
+        <url>http://13.50.234.28:8081/artifactory/Radha-repo</url>
     </repository>
     <snapshotRepository>
-        <id>central</id>
-        <name>S42-Batch-snapshots</name>
-        <url>http://18.223.120.181:8081/artifactory/vmtutes-repo</url>
+        <id>snapshots</id>
+        <name>radha-snapshots</name>
+        <url>http://13.50.234.28:8081/artifactory/Radha-repo</url>
     </snapshotRepository>
 </distributionManagement>
 
